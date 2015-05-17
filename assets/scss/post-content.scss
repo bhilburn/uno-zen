@@ -1,0 +1,16 @@
+// ------------------------------
+// This file contains CSS to use in HTML written in posts, because Ghost doesn't
+// yet support some features of Markdown that I would like to have.
+// ------------------------------
+
+.post-table {
+    border-collapse: collapse;
+}
+
+.post-table, .post-th, .post-td {
+    border: 1px solid black;
+}
+
+.post-td {
+    padding: 15px;
+}
